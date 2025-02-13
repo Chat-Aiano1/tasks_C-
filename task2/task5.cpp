@@ -1,22 +1,22 @@
 #include <iostream>
-#include <iomanip> // for fixed and setprecision
+#include <iomanip> // для фіксованої та встановленої точності
 using namespace std;
 
 int main() {
-    // Declare a variable to store the points
+    // Оголошіть змінну для зберігання точок
     double points;
 
-    // Prompt the user to enter the points
+    // Запропонувати користувачеві ввести бали
     cout << "Enter the number of points (0.0...12.0): ";
     cin >> points;
 
-    // Check if the input is within the valid range
+    // Перевірте, чи введене значення знаходиться в допустимому діапазоні
     if (points < 0.0 || points > 12.0) {
         cout << "Invalid number of points!" << endl;
-        return 1; // Exit the program with an error code
+        return 1; // Вийти з програми з кодом помилки
     }
 
-    // Determine the grade based on the points
+    // Визначте оцінку за балами
     if (points >= 0.0 && points <= 4.4) {
         cout << "Grade: 2.0 (Unsatisfactory)" << endl;
     } else if (points >= 4.5 && points <= 5.2) {
