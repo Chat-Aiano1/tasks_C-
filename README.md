@@ -1,4 +1,4 @@
-# tasks_C-
+# tasks_C++
 
 1. apt install g++ -y
 2. cd <DIR>
