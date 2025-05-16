@@ -1,4 +1,6 @@
-g++ file1.cpp -o task2
+g++ file1.cpp -o task1
+
+g++ file2.cpp -o task2
 
 g++ file3.cpp -o task3
 
